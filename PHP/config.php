@@ -18,7 +18,10 @@
 
 // Arduino Webserver (IP or hostname)
 $arduino = '';
-$smtpURL = '';
+
+// URL you want to send the E-Mail from
+$smtpURL = ''; 
+
 // Base Working Dir (we used /var/www/serverduino/)
 $basedir ='';
 
