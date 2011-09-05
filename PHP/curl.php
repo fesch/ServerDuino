@@ -124,7 +124,7 @@ function send_alert($subject,$message)
     
     $header=array();
     $to = $alertRecipients;
-    $smtp=fsockopen ('192.10.50.9', 25, $errno, $errstr, 30 );
+    $smtp=fsockopen ($smtpURL, 25, $errno, $errstr, 30 );
     if (!$smtp)
     {
         echo "$errno - $errstr";
