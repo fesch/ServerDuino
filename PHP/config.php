@@ -17,8 +17,8 @@
 #
 
 // Arduino Webserver (IP or hostname)
-$arduino = "";
- 
+$arduino = '';
+$smtpURL = '';
 // Base Working Dir (we used /var/www/serverduino/)
 $basedir ='';
 
