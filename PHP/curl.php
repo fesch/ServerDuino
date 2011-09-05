@@ -1,6 +1,8 @@
 <?php
 #
-#    ServerDuino (c) 2010 Charel Buchler <charel.buechler@caritas.lu>
+#    ServerDuino
+#   (c) 2011 Charel Buchler <charel.buechler@caritas.lu>
+#            Robert Fisch <robert.fisch@caritas.lu>
 #    This file is part of ServerDuino
 #
 #    This is free software: you can redistribute it and/or modify
@@ -13,10 +15,6 @@
 #    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 #    GNU General Public License for more details.
 #
-#     @package: rufus/caridas2
-#     @subpackage: modules
-#     @module: serverduino
-#     @submodule: getData
 
 
 include('config.php');
