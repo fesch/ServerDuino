@@ -191,3 +191,6 @@ function getLightForPeriod($period)
     return $result;
 }
 
+
+
+?>

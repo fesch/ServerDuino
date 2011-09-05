@@ -29,3 +29,4 @@ $alertTemperatureThreshold = 30;
 $alertLightPeriod = 300; // in minutes
 $alertLightThreshold = 30;
 $alertRecipents = array(''); // add e-mail adresses which should be alerted if something went wrong
+?>
