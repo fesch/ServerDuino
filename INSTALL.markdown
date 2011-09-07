@@ -26,7 +26,7 @@ http://arduino.fisch.lu/index.php?menu=17&page=&portal=9
 ### Baromethric pressure & temperature sensor
 Follow the instructions from the URL beneath.
 
-http://arduino.fisch.lu/index.php?menu=17&page=&portal=9
+http://arduino.fisch.lu/index.php?menu=31&page=&portal=9
 
 ## 2. Microcontroller
 Next you need to upload the controller sketch to the Arduino. In order
@@ -49,4 +49,4 @@ want them to stay and execute the 4 commands:
 	rrdtool create arduinoYearly.rrd --start N --step 180 DS:temperature:GAUGE:360:-10:60 DS:pressure:GAUGE:360:900:1200 DS:humidity:GAUGE:360:0:100 DS:light:GAUGE:360:0:100 RRA:MIN:0.5:240:730 RRA:MAX:0.5:240:730 RRA:AVERAGE:0.5:240:730 
 
 
-## CRON job
+## 4. CRON job
