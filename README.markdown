@@ -4,7 +4,7 @@
 ServerDuino is an open source hardware/software application which allows you to 
 monitor your serveroom.
 
-It allows you to monitor: 
+It allows you to monitor:
 * Pressure
 * Tempreature 
 * 
