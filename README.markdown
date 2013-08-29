@@ -1,5 +1,3 @@
-# Serverduino 
-
 ## About
 ServerDuino is an open source hardware/software application which allows you to 
 monitor your serveroom.
@@ -7,20 +5,8 @@ monitor your serveroom.
 It allows you to monitor:
 * Pressure
 * Tempreature 
-* 
 * Humidity 
 * Light 
-
-## License
-ServerDuino is released under the General Public License 3 (GPL3) released.
-
-## Authors
-ServerDuino is a project by:
-Robert Fisch (robert.fisch@caritas.lu)
-Charel Buchler (charel.buchler@caritas.lu)
-
-ServerDuino was mainly developed for Caritas Luxembourg, but we decided after on to 
-release the project for the open source community together with Caritas Luxembourg.
 
 ## How it Works
 The Arduino Script monitors with it's sensors pressure, tempreature humidity and 
@@ -38,3 +24,8 @@ It also generates a PDF containing the different diagrams.
 
 ## How to install the stuff. 
 You first need to check if you have installed all your dependencies. 
+
+## Authors
+ServerDuino is a project by:
+Robert Fisch (robert.fisch@caritas.lu)
+Charel Buchler (charel@charelbuchler.com)
